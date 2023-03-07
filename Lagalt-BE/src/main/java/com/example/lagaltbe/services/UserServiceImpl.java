@@ -5,6 +5,7 @@ import com.example.lagaltbe.repositories.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
+import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService{

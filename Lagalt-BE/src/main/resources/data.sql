@@ -1,3 +1,3 @@
-INSERT INTO users (user_name) VALUES ('User 1');
-INSERT INTO users (user_name) VALUES ('User 2');
-INSERT INTO users (user_name) VALUES ('User 3');
+INSERT INTO users (user_name) VALUES ('User1');
+INSERT INTO users (user_name) VALUES ('User2');
+INSERT INTO users (user_name) VALUES ('User3');

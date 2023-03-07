@@ -5,6 +5,7 @@ import com.example.lagaltbe.repositories.UserRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
+import java.util.List;
 
 @Service
 public class UserServiceImpl implements UserService{
@@ -17,6 +18,11 @@ public class UserServiceImpl implements UserService{
     @Override
     public Users findById(Integer id) {
         return userRepository.findById(id).get();
+    }
+
+    @Override
+    public Users findByName(String name) {
+        return userRepository.findByName(name);
     }
 
     @Override

@@ -21,5 +21,6 @@ public class AppRunner implements ApplicationRunner {
         System.out.println("------> " + userRepository.findAll());
         System.out.println("---------> " + userRepository
                 .findById(1).get());
+        System.out.println(userRepository.findByName("User1"));
     }
 }

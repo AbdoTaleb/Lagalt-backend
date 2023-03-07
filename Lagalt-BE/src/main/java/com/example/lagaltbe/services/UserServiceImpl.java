@@ -20,6 +20,11 @@ public class UserServiceImpl implements UserService{
     }
 
     @Override
+    public Users findByName(String name) {
+        return userRepository.findByName(name);
+    }
+
+    @Override
     public Collection<Users> findAll() {
         return userRepository.findAll();
     }
